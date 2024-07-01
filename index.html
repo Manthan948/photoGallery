@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery-slider">
+        <button class="prev-btn">&#10094;</button>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="./aa41b583e3301c734b31474daa590d3c.jpg" alt="Image 1">
+                <div class="gallery-item-info">
+                    <h3>Image Title 1</h3>
+                    <p>Description for Image 1</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./aa41b583e3301c734b31474daa590d3c.jpg" alt="Image 2">
+                <div class="gallery-item-info">
+                    <h3>Image Title 2</h3>
+                    <p>Description for Image 2</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./aa41b583e3301c734b31474daa590d3c.jpg" alt="Image 3">
+                <div class="gallery-item-info">
+                    <h3>Image Title 3</h3>
+                    <p>Description for Image 3</p>
+                </div>
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+        <button class="next-btn">&#10095;</button>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
